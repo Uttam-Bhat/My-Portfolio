@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="margin:0;padding:0;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
-<body>
+<body style="margin:0;">
 	<!-- Animated dots background -->
-	<canvas id="bg-dots" aria-hidden="true"></canvas>
+	<canvas id="bg-dots" aria-hidden="true" style="position:fixed;inset:0;width:100vw;height:100vh;z-index:-1;pointer-events:none;"></canvas>
 	<main>
 		<section id="onepage" class="onepage">
 			<!-- Hero Section -->
@@ -133,10 +133,10 @@
             </div>
 
 			<!-- Projects Section -->
-			<div id="projects" class="projects-section">
-				<div class="container">
+			<div id="projects" class="projects-section" style="margin-bottom:0; padding-bottom:0;">
+				<div class="container" style="margin-bottom:0; padding-bottom:0;">
 					<h2 class="section-title" data-aos="fade-up">Projects</h2>
-					<div class="projects-grid">
+					<div class="projects-grid" style="margin-bottom:0;">
 						<div class="project-card glass-card" data-aos="flip-right" data-aos-delay="80">
 							<div class="project-content">
 								<h3>User Management System</h3>
@@ -217,35 +217,35 @@
 
     </main>
 
-	<!-- Contact Section -->
-	<footer id="contact" class="contact-section">
-		<div class="container">
-			<div class="social-links">
-				<a href="https://www.linkedin.com/in/uttam-bhat-772297294/" class="social-icon" aria-label="LinkedIn">
-					<i class="fa-brands fa-linkedin-in"></i>
-				</a>
-				<a href="https://github.com/Uttam-Bhat" class="social-icon" aria-label="GitHub">
-					<i class="fa-brands fa-github"></i>
-				</a>
-				<a href="https://www.instagram.com/uttam_06_6/?hl=en" class="social-icon" aria-label="Instagram">
-					<i class="fa-brands fa-instagram"></i>
-				</a>
-				<a href="https://www.naukri.com/" class="social-icon" aria-label="Naukri">
-					<i class="fa-solid fa-briefcase"></i>
-				</a>
-			</div>
-			<div class="contact-info">
-				<div class="contact-item">
-					<i class="fa-solid fa-phone"></i>
-					<span>+91 9972818668</span>
+		<!-- Contact Section -->
+		<footer id="contact" class="contact-section" style="color:#000; margin:24px 0 0 0; padding:0; text-align:center;">
+			<div class="container" style="margin:0 auto; padding:0; text-align:center;">
+				<div class="social-links">
+					<a href="https://www.linkedin.com/in/uttam-bhat-772297294/" class="social-icon" aria-label="LinkedIn">
+						<i class="fa-brands fa-linkedin-in" style="color:#0A66C2"></i>
+					</a>
+					<a href="https://github.com/Uttam-Bhat" class="social-icon" aria-label="GitHub">
+						<i class="fa-brands fa-github" style="color:#181717"></i>
+					</a>
+					<a href="https://www.instagram.com/uttam_06_6/?hl=en" class="social-icon" aria-label="Instagram">
+						<i class="fa-brands fa-instagram" style="color:#E4405F"></i>
+					</a>
+					<a href="https://www.naukri.com/" class="social-icon" aria-label="Naukri">
+						<i class="fa-solid fa-briefcase" style="color:#2C5CC5"></i>
+					</a>
 				</div>
-				<div class="contact-item">
-					<i class="fa-solid fa-envelope"></i>
-					<a href="mailto:uttambhat88@gmail.com">uttambhat88@gmail.com</a>
+				<div class="contact-info">
+					<div class="contact-item">
+						<i class="fa-solid fa-phone"></i>
+						<a href="tel:+919972818668" style="color:#000">+91 9972818668</a>
+					</div>
+					<div class="contact-item">
+						<i class="fa-solid fa-envelope"></i>
+						<a href="mailto:uttambhat88@gmail.com" style="color:#000">uttambhat88@gmail.com</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
 
     <script src="https://kit.fontawesome.com/3bc41c3343.js" crossorigin="anonymous"></script> 
     <script>
