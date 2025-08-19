@@ -10,257 +10,289 @@
 </head>
 
 <body>
-    <header style="position:fixed; width:100%;z-index:12;">
-        <nav>
-            <div id="comp-nav">
-                <div id="Myname">
-                    <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: 500;color:rgb(96, 89, 233)">Uttam Bhat</h1>
+	<!-- Animated dots background -->
+	<canvas id="bg-dots" aria-hidden="true"></canvas>
+	<main>
+		<section id="onepage" class="onepage">
+			<!-- Hero Section -->
+			<div id="home" class="hero-section">
+				<div class="hero-content">
+					<div class="hero-text" data-aos="fade-up">
+						<div class="badge">Fresher</div>
+						<h1 class="name">Uttam Bhat</h1>
+						<div class="avatar-border">
+							<div class="avatar"><img src="IMG_0129.JPG" alt="Uttam Bhat" /></div>
                 </div>
-                <div class="link-cont"
-                    style="position: relative; padding-left:10px;height:100%; align-items: center; overflow:hidden;">
-                    <a href="#home">Home</a>
-                    <a href="#navigateAbout"> About</a>
-                    <a href="#navigateEducation">Education</a>
-                    <a href="#navigateCertification">Certifications</a>
-                    <a href="#navigateprojects">Projects</a>
-                    <a href="#contact">Contact</a>
-                    <span></span>
+						<p class="description">Enthusiastic about gaining knowledge and applying it to build useful experiences. Always eager to learn and adapt to new technologies.</p>
+						<div class="resume-toggle">
+							<a class="reveal-resume-btn" data-aos="zoom-in" data-aos-delay="150" href="https://drive.google.com/file/d/16LszpSy_gzXL8pkELnhFpFYAWzvGt5_V/view?usp=drive_link" target="_blank" rel="noopener">View Resume</a>
                 </div>
-                <div  id="mblicon">
-                    <label for="check"><svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 12H20" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> <path d="M5 17H20" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> <path d="M5 7H20" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg> </label>
                 </div>
             </div>
-        </nav>
-        <input type="checkbox" id="check">
-        <div id="mobile-nav">
-         <a href="#home">Home</a>
-        <a href="#navigateAbout"> About</a>
-        <a href="#navigateEducation">Education</a>
-        <a href="#navigateCertification">Certifications</a>
-        <a href="#navigateprojects">Projects</a>
-        <a href="#contact">Contact</a>
-        <span></span>
         </div>
-    </header>
-    <main>
-        <section id="home">
-            <div id="first">
-                <h3 style="font-size:2.1rem;padding-bottom:1.5px;color:rgb(74, 74, 74)">Hello,I'm</h3>
-                <h1 style="font-size:2.7rem;color:rgb(96, 89, 233);">Uttam Bhat,</h1>
-                <p style="font-size:1rem;padding:8px 0;line-height: 25px;color:rgb(69, 68, 67)">a student aspiring software engineer who turns complex challenges into elegant solutions. Dive into my portfolio to see how I blend creativity with code to build impactful digital experiences. Let’s innovate together!</p>
-                <button id="explore"><a href="#navigateAbout" class="anchors" style="font-weight: 600;  color:white;">Explore</a></button>
-                <a href="https://drive.google.com/file/d/16LszpSy_gzXL8pkELnhFpFYAWzvGt5_V/view?usp=drive_link" download id="res">Resume</a>
-            </div>
-            <figure>
-                <div id="image-container">
-                    <img  id="img" src="IMG_0129.JPG" alt="">
-                </div>
-            </figure>
-        </section>
-        <div id="navigateAbout" class="anchors"></div>
-        <section id="about">
-            <div class="about-heading">
-                <div class="abouts">
-                    <h2 id="abouts">ABOUT ME</h2>
-                </div>
-                <div class="content-cont">
-                    <p style="color:rgb(59, 53, 53);"><span class="sub-line1">Hey there! I’m Uttam bhat, an aspiring software engineer with a deep passion for crafting efficient, scalable, and innovative solutions.</span><span id="sub-line2">My journey into software development began with a fascination for how things work behind the scenes, and it has evolved into a full-blown commitment to mastering the art and science <span class="sub-line1">of coding.
-                        I’ve honed my skills in languages like Java, Python, and SQL,and I’m comfortable working with frameworks such as Spring Boot.</span></span><span class="sub-line1">My projects have given me hands-on experience in building robust applications, and I’ve delved into areas like backend development, database management, and API design.</span> 
-                        What excites me most about software engineering is the endless possibilities it offers to solve real-world problems. I’m always eager to learn new technologies and methodologies, and
-                        <span class="sub-line1"> I’m enthusiastic about starting myprofessional journey and am looking forward to collaborating on projects that make a meaningful impact.</span></p>
-                        <span class="sub-line1" style="color:rgb(59, 53, 53);">Let’s connect and see how we can build the future together!!!</span>
-                    </p>
-                </div>
-            </div>
-                   
-        </section>
-        <h2 class="section-heading">Skills</h2>
-        <section id="skillsCont">
-           
-            <div class="skills">
-                    
-                <div class="skills-icon">
-                    <img src="./images/Html.jpeg" width="80" height="50" style="border-radius:5px;">
-                   
-                </div>
-                <h4 class="icname">HTML</h4>
-            </div>
-            <div class="skills">
-                    
-                <div class="skills-icon">
-                    <img src="./images/css.jpg" width="80" height="50" style="border-radius:5px;">
-                   
-                </div>
-                <h4 class="icname">CSS</h4>
-            </div>
-            <div class="skills">
-                    
-                <div class="skills-icon">
-                    <img src="./images/JavaScript.jpg" width="80" height="50" style="border-radius:5px;">
-                   
-                </div>
-                <h4 class="icname">JavaScript</h4>
-            </div>
-            <div class="skills">
-                    
-                <div class="skills-icon">
-                    <img src="./images/javaimg.png" width="80" height="50" style="border-radius:5px;">
-                   
-                </div>
-                <h4 class="icname">Java</h4>
-            </div>
-            <div class="skills">
-                    
-                <div class="skills-icon">
-                    <img src="./images/python.png" width="80" height="50" style="border-radius:5px;">
-                   
-                </div>
-                <h4 class="icname">Python</h4>
-            </div>
-            <div class="skills">
-                    
-                <div class="skills-icon">
-                    <img src="./images/sqls.png" width="80" height="50" style="border-radius:5px;">
-                   
-                </div>
-                <h4 class="icname">SQL</h4>
-            </div>
-        </section>
-        <div id="navigateEducation" class="anchors"></div>
-        <h2 id="abouts">EDUCATION</h2>
-        <section id="educationContainer">
-            <div id="eduwrapper">
-                <div class="education">
-                    <h3 style="color:rgb(96, 89, 233);font-weight:600; text-align:center;padding:5px;">Bachelor of Computer Applications</h3>
-                    <h4 style="font-weight:600">Bhandarkars' College Kundapura<span style="color:rgb(8, 181, 25);"></span></h4>
-                    <p style="color:rgb(63, 145, 71);";>2022-present</p>
-                    <p style="color:rgb(82, 81, 81);">I am currently studying for a Bachelor of Computer Applications (BCA) at Bhandarkars' College Kundapura, where I am deepening my knowledge of programming, software development, and computer systems. This program provides a strong foundation in both theoretical concepts and practical skills. Through hands-on projects and coursework, I am gaining expertise in technology and its applications.</p>
-                </div>
-                <div class="education">
-                    <h3 style="color:rgb(96, 89, 233);font-weight:600; text-align:center;padding:5px;">Commerce with Computer Science</h3>
-                    <h4 style="font-weight:600">Sri Venkatramana PU College -<span style="color:rgb(5, 124, 17);"> 89%</span></h4>
-                    <p style="color:rgb(63, 145, 71)";>2020-2022</p>
-                    <p style="color:rgb(82, 81, 81);">I completed my Pre-University Course (PUC) in Commerce with a focus on Computer Science at Sri Venkatramana PU College. I studied subjects like accounting, economics, business studies, and computer programming. This combination enhanced my understanding of business and technology, preparing me for future academic and career opportunities.</p> 
-                </div>
-                <div class="education">
-                    <h3 style="color:rgb(96, 89, 233);font-weight:600;text-align:center;padding:5px;">SSLC</h3>
-                    <h4 style="font-weight:600">Sandeepan English Medium School -<span style="color:rgb(4, 112, 15);"> 82%</span></h4>
-                    <p style="color:rgb(63, 145, 71)";>2019-2020</p>
-                    <p style="color:rgb(82, 81, 81);">I completed my SSLC at Sandeepan English Medium School, where I built a solid foundation in key subjects like math, science, and language arts. The school focused on developing critical thinking and problem-solving skills. This education helped prepare me for future academic and career challenges.</p>
-                </div>
-            </div>
-           
-        </section>
-        <div id="navigateCertification" class="anchors"></div>
 
-        <h2 id="abouts">CERTIFICATION</h2>
-       
-       <section id="certificates">
-        <div class="certificate-wrapper">
-            <div class="certificate"  data-aos="zoom-in"  data-aos-easing="linear"
-            data-aos-duration="400">
-                <button><a href="https://drive.google.com/file/d/1W6gOV_SfJcB0GeLMwIwEZcGlUTSmFBIw/view?usp=drive_link">View</a></button>
-                <img src="./images/HTML(C).jpg"/>
+			<!-- Skills Section -->
+			<div id="skills" class="skills-section">
+				<div class="container">
+					<h2 class="section-title" data-aos="fade-up">Skills</h2>
+					<div class="skills-rows" data-aos="fade-up" data-aos-delay="100">
+						<ul class="skills-row row-1">
+							<li class="skill-pill"><i class="fa-brands fa-html5"></i><span>HTML</span></li>
+							<li class="skill-pill"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></li>
+							<li class="skill-pill"><i class="fa-brands fa-square-js"></i><span>JavaScript</span></li>
+						</ul>
+						<ul class="skills-row row-2">
+							<li class="skill-pill"><i class="fa-brands fa-java"></i><span>Java</span></li>
+							<li class="skill-pill"><i class="fa-brands fa-python"></i><span>Python</span></li>
+						</ul>
+						<ul class="skills-row row-3">
+							<li class="skill-pill"><i class="fa-solid fa-database"></i><span>SQL</span></li>
+							<li class="skill-pill"><i class="fa-brands fa-react"></i><span>React</span></li>
+						</ul>
+                </div>
+                </div>
             </div>
-            <div class="certificate" data-aos="zoom-in"  data-aos-easing="linear"
-            data-aos-duration="400">
-                <button><a href="https://drive.google.com/file/d/14QW2pJECxrexksJtUs5kqj25kimn-xiP/view?usp=drive_link">View</a></button>
-                <img src="./images/Javscript(c).jpg"/>
+                   
+			<!-- Education Section -->
+			<div id="education" class="education-section">
+				<div class="container">
+					<h2 class="section-title" data-aos="fade-up">Education</h2>
+					<div class="education-grid">
+						<!-- Top centered card -->
+						<div class="education-card glass-card centered" data-aos="fade-up" data-aos-delay="100">
+							<h3>Bachelor of Computer Applications</h3>
+							<h4>Bhandarkars' College Kundapura - <span class="percentage">9.29 CGPA</span></h4>
+							<p class="duration">2022-2025</p>
+							<p>Focusing on software development, databases and systems design with hands‑on projects.
+							Strengthening fundamentals to build reliable applications.</p>
+                </div>
+						<!-- Bottom row (two cards) -->
+						<div class="education-card glass-card" data-aos="fade-up" data-aos-delay="200">
+							<h3>Commerce with Computer Science</h3>
+							<h4>Sri Venkatramana PU College - <span class="percentage">89%</span></h4>
+							<p class="duration">2020-2022</p>
+							<p>Studied commerce alongside computer science to build analytical thinking and tech basics.
+							Gained early exposure to programming and problem‑solving.</p>
             </div>
-            <div class="certificate" data-aos="zoom-in"  data-aos-easing="linear"
-            data-aos-duration="400">
-                <button><a href="https://drive.google.com/file/d/1mkpr5GvTzxh7ozIKAEqzALyvfhnJhyZF/view?usp=drive_link">View</a></button>
-                <img src="./images/SQL(AC).jpg">
+						<div class="education-card glass-card" data-aos="fade-up" data-aos-delay="300">
+							<h3>SSLC</h3>
+							<h4>Sandeepan English Medium School - <span class="percentage">82%</span></h4>
+							<p class="duration">2019-2020</p>
+							<p>Completed SSLC with a strong foundation in core academics and consistent discipline.
+							Developed curiosity and problem‑solving habits that guide my learning today.</p>
+                </div>
+            </div>
+                </div>
+            </div>
+
+			<!-- Certifications Section -->
+			<div id="certifications" class="certifications-section">
+				<div class="container">
+					<h2 class="section-title" data-aos="fade-up">Certifications</h2>
+					<div class="certifications-grid">
+						<div class="certificate-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+							<img src="./images/HTML(C).jpg" alt="HTML Certificate">
+							<a href="https://drive.google.com/file/d/1W6gOV_SfJcB0GeLMwIwEZcGlUTSmFBIw/view?usp=drive_link" class="certificate-btn">View</a>
+                </div>
+						<div class="certificate-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+							<img src="./images/Javscript(c).jpg" alt="JavaScript Certificate">
+							<a href="https://drive.google.com/file/d/14QW2pJECxrexksJtUs5kqj25kimn-xiP/view?usp=drive_link" class="certificate-btn">View</a>
+            </div>
+						<div class="certificate-card glass-card" data-aos="zoom-in" data-aos-delay="300">
+							<img src="./images/SQL(AC).jpg" alt="SQL Certificate">
+							<a href="https://drive.google.com/file/d/1mkpr5GvTzxh7ozIKAEqzALyvfhnJhyZF/view?usp=drive_link" class="certificate-btn">View</a>
+                </div>
+						<div class="certificate-card glass-card" data-aos="zoom-in" data-aos-delay="400">
+							<img src="./images/Python(c).jpg" alt="Python Certificate">
+							<a href="https://drive.google.com/file/d/1NVHrnCrBVL5eDaRmcQgc-wmao8abaVyW/view?usp=drive_link" class="certificate-btn">View</a>
+            </div>
+						<div class="certificate-card glass-card" data-aos="zoom-in" data-aos-delay="500">
+							<img src="./images/JAVA Certificate.jpg" alt="Java Certificate">
+							<a href="https://drive.google.com/file/d/1JcPOoSED-Zv-w_1MTBH7x04mgZmUBMAc/view?usp=drive_link" class="certificate-btn">View</a>
+                </div>
+						<div class="certificate-card glass-card" data-aos="zoom-in" data-aos-delay="600">
+							<img src="./images/meta(c).jpg" alt="Meta Certificate">
+							<a href="https://drive.google.com/file/d/1vPnUvj2VsWGSIUnrRO2-BAjJ52W-JX8_/view?usp=drive_link" class="certificate-btn">View</a>
+                </div>
+                </div>
+                </div>
+            </div>
+           
+			<!-- Internship Section -->
+			<div id="internship" class="internship-section">
+				<div class="container">
+					<h2 class="section-title" data-aos="fade-up">Internship</h2>
+					<div class="internship-card glass-card" data-aos="fade-up" data-aos-delay="100">
+						<div class="internship-image">
+							<img src="./images/Internship_page-0001.jpg" alt="Internship Certificate">
+            </div>
+						<div class="internship-actions">
+							<a href="#" class="certificate-btn">View</a>
+            </div>
             </div>
         </div>
-        <div class="certificate-wrapper">
-            <div class="certificate" data-aos="zoom-in"  data-aos-easing="linear"
-            data-aos-duration="400">
-                <button><a href="https://drive.google.com/file/d/1NVHrnCrBVL5eDaRmcQgc-wmao8abaVyW/view?usp=drive_link">View</a></button>
-                <img src="./images/Python(c).jpg">
             </div>
-            <div class="certificate" data-aos="zoom-in"  data-aos-easing="linear"
-            data-aos-duration="400">
-                <button><a href="https://drive.google.com/file/d/1JcPOoSED-Zv-w_1MTBH7x04mgZmUBMAc/view?usp=drive_link">View</a></button>
-                <img src="./images/JAVA Certificate.jpg"/>
+
+			<!-- Projects Section -->
+			<div id="projects" class="projects-section">
+				<div class="container">
+					<h2 class="section-title" data-aos="fade-up">Projects</h2>
+					<div class="projects-grid">
+						<div class="project-card glass-card" data-aos="flip-right" data-aos-delay="100">
+							<div class="project-content">
+								<h3>ClimateCraft</h3>
+								<div class="project-image">
+									<img src="./images/weather.png" alt="ClimateCraft">
+            </div>
+								<p>Created a weather app that provides current weather conditions using HTML, CSS, and JavaScript. Integrated WeatherAPI to fetch real-time data, offering users accurate updates on temperature, humidity, and more.</p>
+        </div>
+							<div class="project-buttons">
+								<a href="https://climatecraft.netlify.app/" class="btn-primary">View</a>
+								<a href="https://github.com/Uttam-Bhat/Weather-app.git" class="btn-secondary">GitHub</a>
             </div>
         </div>
-        <div class="certificate-wrapper">
-            <div class="certificate" data-aos="zoom-in"  data-aos-easing="linear"
-            data-aos-duration="400">
-                <button><a href="https://drive.google.com/file/d/1vPnUvj2VsWGSIUnrRO2-BAjJ52W-JX8_/view?usp=drive_link">View</a></button>
-                <img src="./images/meta(c).jpg"/>
+						<div class="project-card glass-card" data-aos="flip-right" data-aos-delay="200">
+							<div class="project-content">
+								<h3>Python Project</h3>
+								<div class="project-image">
+									<img src="./images/python-project.png" alt="Python Project">
+								</div>
+								<p>Created an employee management application using Python with CustomTkinter for the interface and MySQL for database management. This system allows for efficient handling of employee records.</p>
             </div>
+							<div class="project-buttons">
+								<a href="https://github.com/Uttam-Bhat/Weather-app.git" class="btn-secondary">GitHub</a>
+            </div>     
+        </div>
+						<div class="project-card glass-card" data-aos="flip-right" data-aos-delay="300">
+							<div class="project-content">
+								<h3>Voice Assistant</h3>
+								<div class="project-image">
+									<img src="./Voice Assistant.png" alt="Voice Assistant">
+								</div>
+								<p>Developed a Python-based AI voice assistant using Flask and Google Gemini API. It listens to user voice input and generates smart AI responses with a modern web interface.</p>
+            </div>
+							<div class="project-buttons">
+								<a href="https://github.com/Uttam-Bhat/Voice-Assistant.git" class="btn-secondary">GitHub</a>
+            </div>     
+        </div>
+            </div>
+            </div>     
         </div>
        </section>
-       <h2 id="abouts">PROJECTS</h2>
-        <div id="navigateprojects" class="anchors"></div>
-       <section id="projects">
-        <div class="card" data-aos="flip-right" data-aos-easing="linear"
-        data-aos-duration="400">
-            <div class="card-details">
-                <p class="text-title">ClimateCraft</p>
-                <figure>
-                    <img src="./images/weather.png" height="70"/>
-                </figure><hr style="width:100%;">
-                <p class="text-body">Created a weather app that provides current weather conditions using HTML, CSS, and JavaScript. Integrated WeatherAPI to fetch real-time data, offering users accurate updates on temperature, humidity, and more.Designed to quickly deliver essential weather information for better daily planning.</p>
-            </div>
-            <div class="card-button">
-                <button class="project-button"><a href="https://climatecraft.netlify.app/">View</a></button>
-                <button class="project-button"><a href="https://github.com/Uttam-Bhat/Weather-app.git">GitHub</a></button>
-            </div>     
-        </div>
-        <div class="card" data-aos="flip-right" data-aos-easing="linear"
-        data-aos-duration="400">
-            <div class="card-details">
-                <p class="text-title">Python project</p>
-                <figure>
-                    <img src="./images/python-project.png"/>
-                </figure><hr style="width:100%;">
-                <p class="text-body">Created an employee management application using Python with CustomTkinter for the interface and MySQL for database management. This system allows for efficient handling of employee records and offers a user-friendly experience..</p>
-            </div>
-            <div class="card-button">
-                <!-- <button class="project-button"><a href="https://climatecraft.netlify.app/">View</a></button> -->
-                <button class="project-button"><a href="https://github.com/Uttam-Bhat/Weather-app.git">GitHub</a></button>
-            </div>     
-        </div>
-        <div class="card" data-aos="flip-right" data-aos-easing="linear"
-        data-aos-duration="400">
-            <div class="card-details">
-                <p class="text-title">Voice Assistant</p>
-                <figure>
-                    <img src="./Voice Assistant.png">
-                </figure><hr style="width:100%;">
-                <p class="text-body">Developed a Python-based AI voice assistant using Flask and Google Gemini API. It listens to user voice input and generates smart AI responses with a modern web interface. Integrated speech recognition, text-to-speech, and interactive design for a smooth user experience.</p>
-            </div>
-            <div class="card-button">
-                <!-- <button class="project-button"><a href="https://climatecraft.netlify.app/">View</a></button> -->
-                <button class="project-button"><a href="https://github.com/Uttam-Bhat/Voice-Assistant.git">GitHub</a></button>
-            </div>     
-        </div>
-       </section>
+
     </main>
-    <footer>
-        <section id="contact">
-            <h2 id="details">Contanct Details</h2>
-            <div class="wrapper">
-                <a href="https://www.instagram.com/uttam_06_6/?hl=en" class="icon"><i
-                    class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/uttam-bhat-772297294/" class="icon"><i
-                    class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://drive.google.com/file/d/16LszpSy_gzXL8pkELnhFpFYAWzvGt5_V/view?usp=drive_link" download class="icon"><i class="fa-solid fa-file-pdf"></i></a>
-                <a href="https://github.com/Uttam-Bhat" class="icon"><i class="fa-brands fa-github"></i></a>
+
+	<!-- Contact Section -->
+	<footer id="contact" class="contact-section">
+		<div class="container">
+			<h2 class="section-title">Contact Details</h2>
+			<div class="social-links">
+				<a href="https://www.instagram.com/uttam_06_6/?hl=en" class="social-icon">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/uttam-bhat-772297294/" class="social-icon">
+					<i class="fa-brands fa-linkedin-in"></i>
+				</a>
+				<a href="https://drive.google.com/file/d/16LszpSy_gzXL8pkELnhFpFYAWzvGt5_V/view?usp=drive_link" class="social-icon">
+					<i class="fa-solid fa-file-pdf"></i>
+				</a>
+				<a href="https://github.com/Uttam-Bhat" class="social-icon">
+					<i class="fa-brands fa-github"></i>
+				</a>
+			</div>
+			<div class="contact-info">
+				<div class="contact-item">
+					<i class="fa-solid fa-phone"></i>
+					<span>+91 9972818668</span>
+				</div>
+				<div class="contact-item">
+					<i class="fa-solid fa-envelope"></i>
+					<a href="mailto:uttambhat88@gmail.com">uttambhat88@gmail.com</a>
+				</div>
             </div>
-            <div class="contact">
-                <i class="fa-solid fa-phone" style="color: lightblue;"></i> +91 9972818668 
-                <p style="border-left:1px solid white; padding-left:20px;"> <i class="fa-solid fa-envelope" style="color:blanchedalmond;"></i><a
-                    href="mailto:uttambhat88@gmail.com" style="color:#fff;">&nbsp;&nbsp;uttambhat88@gmail.com</a></p>
             </div>
-        </section>
     </footer>
+
     <script src="https://kit.fontawesome.com/3bc41c3343.js" crossorigin="anonymous"></script> 
     <script>
-        AOS.init();
+		// Moving dots background on canvas
+		(function() {
+			const canvas = document.getElementById('bg-dots');
+			if (!canvas) return;
+			const ctx = canvas.getContext('2d');
+			let width, height, dots;
+			const numDots = 160;
+			function resize() {
+				width = canvas.width = window.innerWidth;
+				height = canvas.height = window.innerHeight;
+				dots = dots || new Array(numDots).fill(0).map(() => ({
+					x: Math.random()*width,
+					y: Math.random()*height,
+					r: Math.random()*1.7 + 0.7,
+					vx: (Math.random()-0.5)*0.45,
+					vy: (Math.random()-0.5)*0.45
+				}));
+			}
+			function step() {
+				ctx.clearRect(0,0,width,height);
+				ctx.fillStyle = 'rgba(30, 35, 60, 0.16)';
+				dots.forEach(d => {
+					d.x += d.vx; d.y += d.vy;
+					if (d.x < -10) d.x = width+10; if (d.x > width+10) d.x = -10;
+					if (d.y < -10) d.y = height+10; if (d.y > height+10) d.y = -10;
+					ctx.beginPath();
+					ctx.arc(d.x, d.y, d.r, 0, Math.PI*2);
+					ctx.fill();
+				});
+				requestAnimationFrame(step);
+			}
+			window.addEventListener('resize', resize);
+			resize();
+			step();
+		})();
+		// Initialize AOS and re-trigger on scroll
+		try {
+			AOS.init({
+				duration: 700,
+				easing: 'ease-out-cubic',
+				once: false,
+				offset: 120
+			});
+			window.addEventListener('scroll', () => {
+				AOS.refresh();
+			});
+		} catch (error) {
+			console.log('AOS not available, content will still be visible');
+		}
+		
+		// Guarded mobile menu toggle (header removed)
+		const menuBtn = document.querySelector('.mobile-menu-btn');
+		const navLinks = document.querySelector('.nav-links');
+		if (menuBtn && navLinks) {
+			menuBtn.addEventListener('click', function() {
+				this.classList.toggle('active');
+				navLinks.classList.toggle('active');
+			});
+		}
+		
+		// Resume reveal toggle
+		const resumeToggleBtn = document.getElementById('resumeToggleBtn');
+		const resumePanel = document.getElementById('resumePanel');
+		if (resumeToggleBtn && resumePanel) {
+			resumeToggleBtn.addEventListener('click', () => {
+				const hidden = resumePanel.hasAttribute('hidden');
+				if (hidden) {
+					resumePanel.removeAttribute('hidden');
+					resumePanel.setAttribute('data-aos', 'fade-in');
+					AOS.refresh();
+				} else {
+					resumePanel.setAttribute('hidden', '');
+				}
+			});
+		}
+		
+		// Debug: Log all sections to ensure they exist
+		console.log('Portfolio sections found:', document.querySelectorAll('section, .hero-section, .skills-section, .education-section, .certifications-section, .internship-section, .projects-section').length);
       </script>
 </body>
 </html>
